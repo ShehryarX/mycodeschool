@@ -87,7 +87,7 @@ int main(void)
   insert_at_head(4);
   print();
   reverse_print();
-  insert_at_head(6);
+  insert_at_tail(6);
   print();
   reverse_print();
   return 0;
