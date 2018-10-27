@@ -32,6 +32,18 @@ void reverse(struct Node *p)
   q->next = NULL;
 }
 
+void print()
+{
+  struct Node *temp = head;
+  printf("List: ");
+  while (temp != NULL)
+  {
+    printf("%d ", temp->val);
+    temp = temp->next;
+  }
+  printf(" \n");
+}
+
 int main(void)
 {
   return 0;
